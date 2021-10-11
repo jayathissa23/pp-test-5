@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+button {
+  cursor: pointer; }
+
+html {
+  font-size: 0.9px; }
+
+body {
+  background: #FFFFFF;
+  width: 100vw;
+  position: relative; }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+.nav {
+  position: fixed;
+  z-index: 3; }
+  .nav .wrapper {
+    width: 100vw;
+    height: 101rem;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 50rem 0rem 50rem;
+    position: relative; }
+    .nav .wrapper .mobile-nav {
+      position: absolute;
+      top: calc;
+      top: 29%;
+      left: 7%;
+      visibility: hidden; }
+      .nav .wrapper .mobile-nav .hamberg-icon {
+        width: 31rem;
+        height: 32rem; }
+    .nav .wrapper .logo {
+      width: 110rem;
+      height: 49rem;
+      font-family: DM Serif Display;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36rem;
+      line-height: 49rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #000000; }
+    .nav .wrapper .links {
+      color: red;
+      font-size: 21rem;
+      display: flex;
+      list-style: none;
+      cursor: pointer;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21rem;
+      line-height: 120%;
+      letter-spacing: -0.03em;
+      /* Main Black */
+      color: #181717; }
+      .nav .wrapper .links .Register-btn {
+        width: 136rem;
+        height: 28rem;
+        color: #fff;
+        background: #F7AC01;
+        border-radius: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15rem; }
+    .nav .wrapper .nav-link {
+      color: black;
+      margin-right: 25rem; }
+
+.header {
+  height: 84vh;
+  position: relative;
+  margin-top: 84rem; }
+  .header .wrapper {
+    display: flex;
+    margin: 0rem 50rem 0rem 50rem; }
+    .header .wrapper .header-text-content {
+      flex: 2;
+      position: absolute;
+      top: 19%;
+      left: 5%; }
+      .header .wrapper .header-text-content h1 {
+        font-size: 60rem;
+        width: 322px;
+        height: 78px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 78px;
+        display: flex;
+        align-items: center;
+        color: #000000; }
+      .header .wrapper .header-text-content p {
+        font-size: 18rem;
+        font-family: DM Sans;
+        width: 648rem;
+        height: 120rem;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 135.2%;
+        color: #000000; }
+      .header .wrapper .header-text-content .header-text-content-btns {
+        display: flex;
+        margin-left: -26rem;
+        margin-top: 35rem; }
+        .header .wrapper .header-text-content .header-text-content-btns .btn-join-us {
+          width: 157rem;
+          height: 28rem;
+          color: #fff;
+          padding: 21px 46px;
+          background: #280D12;
+          border-radius: 20rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-left: 15rem;
+          box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.25);
+          border-radius: 200px;
+          transform: scale(0.9); }
+        .header .wrapper .header-text-content .header-text-content-btns .btn-contact-us {
+          width: 180rem;
+          height: 28rem;
+          color: #280D12;
+          padding: 21px 46px;
+          background: #F4F4F4;
+          border-radius: 20rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-left: 15rem;
+          box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.25);
+          border-radius: 200px;
+          transform: scale(0.9); }
+    .header .wrapper .header-img-content {
+      flex: 1;
+      position: absolute;
+      top: 20%;
+      left: 59%; }
+      .header .wrapper .header-img-content img {
+        width: 347rem;
+        height: 302rem; }
+
+.slide-nav-section {
+  font-size: 20rem;
+  background-color: #F6F6F6;
+  height: 40vh;
+  display: flex;
+  font-size: 36rem;
+  justify-content: space-around;
+  border-bottom-right-radius: 100%;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 101vw;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  z-index: 1; }
+  .slide-nav-section ul {
+    margin-top: calc(167rem - 44rem);
+    margin-left: calc(85rem - 196rem);
+    font-family: DM Sans; }
+    .slide-nav-section ul li {
+      list-style: none; }
+      .slide-nav-section ul li a {
+        text-decoration: none;
+        color: #000; }
+
+main .about-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff; }
+  main .about-section .about {
+    background-color: #F1AA02; }
+    main .about-section .about .wrapper {
+      display: flex;
+      flex-direction: column;
+      font-family: DM Sans;
+      justify-content: center;
+      margin: 0 220rem 0 220rem; }
+    main .about-section .about .about-title {
+      font-weight: bold;
+      font-size: 44rem;
+      justify-content: space-around;
+      display: flex;
+      padding-top: 29rem; }
+    main .about-section .about p {
+      font-size: 18rem;
+      text-align: center;
+      padding-top: 13rem; }
+    main .about-section .about .button-container {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 25rem; }
+    main .about-section .about button {
+      width: 160rem;
+      height: 28rem;
+      color: #000;
+      padding: 25rem 29rem;
+      background: #EFDCB0;
+      border-radius: 20rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: 15rem;
+      box-shadow: 0rem 4rem 8rem rgba(114, 114, 114, 0.25);
+      border-radius: 200rem;
+      transform: scale(0.9);
+      border: none;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      margin-bottom: 53rem; }
+  main .about-section .about-us {
+    height: 100vh;
+    background-color: #280F13; }
+    main .about-section .about-us .wrapper {
+      display: flex;
+      flex-direction: column;
+      margin: 0 260rem 0 260rem;
+      font-family: DM Sans; }
+    main .about-section .about-us h1 {
+      font-weight: bold;
+      font-size: 44rem;
+      display: flex;
+      justify-content: space-around;
+      padding-top: 29rem; }
+    main .about-section .about-us p {
+      font-size: 18rem;
+      font-size: 18rem;
+      text-align: center;
+      padding-top: 13rem; }
+    main .about-section .about-us .services .servises-container {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 31rem; }
+      main .about-section .about-us .services .servises-container .servise-item {
+        background-color: #fff;
+        border-radius: 35rem;
+        width: 186rem;
+        height: 186rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        main .about-section .about-us .services .servises-container .servise-item img {
+          width: 68rem;
+          height: 68rem; }
+        main .about-section .about-us .services .servises-container .servise-item p {
+          color: #280F13;
+          font-weight: bold; }
+    main .about-section .about-us .button-container {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 25rem; }
+    main .about-section .about-us button {
+      width: 160rem;
+      height: 28rem;
+      color: #fff;
+      background: #F1AA02;
+      box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.25);
+      padding: 25rem 29rem;
+      border-radius: 20rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 200rem;
+      transform: scale(0.9);
+      border: none;
+      font-family: DM Sans;
+      font-style: normal;
+      font-size: 20rem;
+      margin-left: 15rem;
+      margin-bottom: 42rem;
+      margin-top: 21rem; }
+
+main .professionalists-section {
+  width: 100vw;
+  height: 76vh;
+  background-color: #fff;
+  margin-top: 235rem;
+  font-family: DM Sans; }
+  main .professionalists-section .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 60rem 0 60rem; }
+    main .professionalists-section .wrapper h1 {
+      font-size: 44rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    main .professionalists-section .wrapper .professionals-list {
+      display: flex;
+      font-size: 18rem;
+      justify-content: space-evenly;
+      margin-top: 65rem; }
+      main .professionalists-section .wrapper .professionals-list .profetaional {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        main .professionalists-section .wrapper .professionals-list .profetaional .person-img {
+          width: 156.45rem;
+          height: 156.45rem;
+          border-radius: 30rem; }
+        main .professionalists-section .wrapper .professionals-list .profetaional .name {
+          margin-top: 20rem;
+          color: #000; }
+        main .professionalists-section .wrapper .professionals-list .profetaional .job {
+          width: 294rem;
+          height: 34rem;
+          color: #fff;
+          background: #F7AC01;
+          border-radius: 20rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 6rem; }
+        main .professionalists-section .wrapper .professionals-list .profetaional .social-media {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 20rem; }
+          main .professionalists-section .wrapper .professionals-list .profetaional .social-media img {
+            width: 21.92rem;
+            height: 19.84rem;
+            margin-left: 20rem; }
+
+footer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #280F13;
+  color: #fff;
+  display: flex;
+  overflow-y: hidden;
+  flex-direction: column; }
+  footer .wrapper {
+    font-family: DM Sans;
+    margin: 0 220rem 0 190rem; }
+  footer .email-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95rem; }
+    footer .email-container .title {
+      font-size: 28rem; }
+    footer .email-container .email-input {
+      display: flex;
+      position: relative; }
+      footer .email-container .email-input input {
+        border-radius: 39rem;
+        box-shadow: none;
+        width: 498rem;
+        padding-left: 34rem;
+        height: 65rem; }
+      footer .email-container .email-input button {
+        position: absolute;
+        top: 14rem;
+        left: 352rem;
+        width: 123rem;
+        height: 36rem;
+        border-radius: 22rem;
+        background: #F7AC01;
+        color: white;
+        border: none; }
+  footer .logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80rem; }
+    footer .logo .img {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      footer .logo .img img {
+        width: 115rem;
+        height: 68rem; }
+    footer .logo p {
+      font-size: 16rem;
+      display: flex;
+      justify-content: center;
+      margin-top: 5rem; }
+  footer .uni-name {
+    font-size: 22rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30rem; }
+  footer .links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30rem; }
+    footer .links a {
+      text-decoration: none;
+      font-size: 20rem;
+      color: #fff;
+      margin-left: 68rem; }
+  footer .social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40rem; }
+    footer .social-media img {
+      width: 29.92rem;
+      height: 24.84rem;
+      margin-left: 20rem; }
+  footer .copyright {
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 18rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 59rem; }
+
+.overlay {
+  position: absolute; }
+
+@media (min-width: 1500px) {
+  html {
+    font-size: 1.2px; } }
+
+@media (max-width: 991px) {
+  .header .wrapper .header-text-content {
+    top: 50%;
+    left: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .header .wrapper .header-img-content {
+    top: 5%;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  main .about-section .about-us .wrapper {
+    margin: 0 118rem 0 118rem; } }
+
+@media (max-width: 894px) {
+  main .about-section .about .wrapper {
+    margin: 0 66rem 0 66rem; }
+  main .about-section .about-us {
+    height: 127vh; }
+    main .about-section .about-us .services .servises-container {
+      flex-direction: column;
+      align-items: center; }
+      main .about-section .about-us .services .servises-container .servise-item {
+        margin-bottom: 23rem; }
+  main .professionalists-section {
+    margin-top: 531rem; }
+    main .professionalists-section .wrapper .professionals-list {
+      flex-direction: column; }
+      main .professionalists-section .wrapper .professionals-list .profetaional {
+        margin-bottom: 37rem; }
+    main .professionalists-section .wrapper h1 {
+      font-size: 28rem;
+      margin-top: 54rem; }
+  footer {
+    margin-top: 574rem;
+    height: 89vh; }
+    footer .wrapper {
+      margin: 0 117rem 0 49rem; }
+    footer .email-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 47rem; }
+    footer .logo {
+      margin-top: 39rem; }
+      footer .logo .img img {
+        width: 171rem;
+        height: 106rem; } }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 0.85px; }
+  .nav .wrapper .mobile-nav {
+    visibility: inherit; }
+  .slide-nav-section ul {
+    margin-top: calc(167rem - 72rem);
+    margin-left: calc(403rem - 517rem); }
+  .header .wrapper .header-text-content {
+    transform: scale(0.65); }
+  .header .wrapper .header-img-content img {
+    width: 312rem;
+    height: 279rem;
+    margin-top: 31rem; }
+  main .about-section .about .wrapper {
+    margin: 0 16rem 0 16rem; }
+  main .about-section .about-us .wrapper {
+    margin: 0px 39rem 0 39rem; }
+  footer .wrapper {
+    margin: 0px 22rem 0 17rem; }
+  footer .links {
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 89rem; }
+    footer .links a {
+      font-size: 20.5rem; }
+  footer .email-container .title {
+    font-size: 25rem; }
+  footer .email-container .email-input {
+    width: 84%;
+    margin-top: 11rem; }
+    footer .email-container .email-input button {
+      top: 27rem;
+      left: 351rem; }
+    footer .email-container .email-input input {
+      margin-top: 12rem; }
+  footer .copyright {
+    margin-top: 29rem; }
+  .nav .wrapper {
+    display: flex;
+    flex-direction: column; }
+    .nav .wrapper .logo {
+      width: 100%;
+      font-size: 54rem;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 21rem; }
+    .nav .wrapper .links {
+      visibility: hidden; } }
+
+@media (max-width: 376px) {
+  footer .email-container .email-input button {
+    top: 34%;
+    left: 61%; } }
